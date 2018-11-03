@@ -1,7 +1,32 @@
 /* CSS Document */
 
+@media screen and (max-width: 360px) {
+  #restaurants-list li {
+    width: 210px;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .filter-options {
     height: 110px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+/* ====================== Restaurant Listing ====================== */
+  #breadcrumb {
+    width: calc(100% - 80px);
+  }
+  .inside #map-container {
+    width: 100%;
+    top: 131px;
+    height: 300px;
+    position: relative;
+    z-index: 1;
+  }
+  #restaurant-container,
+  #reviews-container,
+  .inside #footer {
+    width: 100%;
   }
 }

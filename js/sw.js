@@ -59,3 +59,5 @@ self.addEventListener('activate', function(event) {
     })
   );
 });
+// Service worker how-to
+// https://itnext.io/service-workers-your-first-step-towards-progressive-web-apps-pwa-e4e11d1a2e85

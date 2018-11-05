@@ -1,19 +1,21 @@
-/* CSS Document */
+/* CSS Responsive Document */
 
 @media screen and (max-width: 360px) {
+/* ====================== Restaurant Listing ====================== */
   #restaurants-list li {
     width: 210px;
   }
 }
 
 @media screen and (max-width: 450px) {
+/* ====================== Restaurant Listing ====================== */
   .filter-options {
     height: 110px;
   }
 }
 
 @media screen and (max-width: 600px) {
-/* ====================== Restaurant Listing ====================== */
+/* ====================== Restaurant Details ====================== */
   #breadcrumb {
     width: calc(100% - 80px);
   }

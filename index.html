@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -19,7 +19,7 @@
 
   <main id="maincontent">
     <section id="map-container">
-      <div id="map"></div>
+      <div id="map" aria-label="location" role="application"></div>
     </section>
     <section>
       <div class="filter-options">
@@ -40,11 +40,11 @@
   <script>
     if('serviceWorker' in navigator) {
       navigator.serviceWorker
-           .register('js/sw.js')
+           .register('/sw.js')
            .then(function() { console.log("Service Worker Registered"); });
     }
   </script>
-  
+
   <footer id="footer">
     Copyright (c) 2017 <a href="/"><strong>Restaurant Reviews</strong></a> All Rights Reserved.
   </footer>

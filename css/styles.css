@@ -71,12 +71,16 @@ nav h1 a {
   text-transform: uppercase;
 }
 #breadcrumb {
+		top: 80px;
+		left: 0;
+		position: absolute;
     padding: 10px 40px 16px;
     list-style: none;
     background-color: #eee;
     font-size: 17px;
     margin: 0;
     width: calc(50% - 80px);
+		text-align: left;
 }
 
 /* Display list items side by side */
@@ -267,7 +271,7 @@ nav h1 a {
   width: 50%;
 }
 
-#reviews-container h2 {
+#reviews-container h3 {
   color: #f58500;
   font-size: 24pt;
   font-weight: 300;
